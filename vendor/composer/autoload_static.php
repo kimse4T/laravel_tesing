@@ -38,6 +38,7 @@ class ComposerStaticInit374c83f319d34257ce4b6c93061c51c3
         'b6b991a57620e2fb6b2f66f03fe9ddc2' => __DIR__ . '/..' . '/symfony/string/Resources/functions.php',
         'ed962a97bd972bc82007176b647d4e36' => __DIR__ . '/..' . '/facade/ignition/src/helpers.php',
         'c2173bc3085134884bc473a1e1eaa30f' => __DIR__ . '/../..' . '/tests/helpers/function.php',
+        '24d90fa33c4eda2fa5a098288592c166' => __DIR__ . '/../..' . '/tests/mailtracking.php',
     );
 
     public static $prefixLengthsPsr4 = array (
@@ -4984,8 +4985,10 @@ class ComposerStaticInit374c83f319d34257ce4b6c93061c51c3
         'Symfony\\Polyfill\\Php80\\Php80' => __DIR__ . '/..' . '/symfony/polyfill-php80/Php80.php',
         'Tests\\CreatesApplication' => __DIR__ . '/../..' . '/tests/CreatesApplication.php',
         'Tests\\Feature\\ArticleTest' => __DIR__ . '/../..' . '/tests/Feature/ArticleTest.php',
+        'Tests\\Feature\\EmailTest' => __DIR__ . '/../..' . '/tests/Feature/EmailTest.php',
         'Tests\\Feature\\ExampleTest' => __DIR__ . '/../..' . '/tests/Feature/ExampleTest.php',
         'Tests\\Feature\\TeamTest' => __DIR__ . '/../..' . '/tests/Feature/TeamTest.php',
+        'Tests\\Feature\\TestingEventMailListener' => __DIR__ . '/../..' . '/tests/Feature/EmailTest.php',
         'Tests\\Feature\\test' => __DIR__ . '/../..' . '/tests/Feature/test.php',
         'Tests\\TestCase' => __DIR__ . '/../..' . '/tests/TestCase.php',
         'Tests\\Unit\\ExampleTest' => __DIR__ . '/../..' . '/tests/Unit/ExampleTest.php',

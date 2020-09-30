@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\ArticlesController;
+use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -15,6 +16,6 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/',function(){
-    return view('index');
+
 });
 

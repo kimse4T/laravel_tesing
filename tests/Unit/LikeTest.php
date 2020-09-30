@@ -27,9 +27,9 @@ class LikeTest extends TestCase
 
         parent::Setup();
 
-        $this->post =  Post::factory()->create();
+        //$this->post =  Post::factory()->create();
 
-        //$this->post=createPost();
+        $this->post=createPost();
 
         $this->signIn();
 

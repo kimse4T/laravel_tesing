@@ -37,4 +37,5 @@ return array(
     'b6b991a57620e2fb6b2f66f03fe9ddc2' => $vendorDir . '/symfony/string/Resources/functions.php',
     'ed962a97bd972bc82007176b647d4e36' => $vendorDir . '/facade/ignition/src/helpers.php',
     'c2173bc3085134884bc473a1e1eaa30f' => $baseDir . '/tests/helpers/function.php',
+    '24d90fa33c4eda2fa5a098288592c166' => $baseDir . '/tests/mailtracking.php',
 );

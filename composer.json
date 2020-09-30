@@ -38,6 +38,7 @@
             "App\\": "app/",
             "Database\\Factories\\": "database/factories/",
             "Database\\Seeders\\": "database/seeders/"
+
         }
     },
     "autoload-dev": {
@@ -45,7 +46,8 @@
             "Tests\\": "tests/"
         },
         "files": [
-            "tests/helpers/function.php"
+            "tests/helpers/function.php",
+            "tests/mailtracking.php"
         ]
 
 
